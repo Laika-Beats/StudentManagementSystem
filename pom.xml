@@ -54,8 +54,8 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <configuration>
-                <source>2.8.4</source>
-                <target>2.8.4</target>
+                <source>3.8.1</source>
+                <target>3.8.1</target>
             </configuration>
         </plugin>
     </plugins>
