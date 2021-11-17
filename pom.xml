@@ -14,7 +14,7 @@
 	<name>Student-Management-System</name>
 	<description>Student Management System using Spring Boot and Thymeleaf</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -49,12 +49,16 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>3.8.3</source>
+                <target>3.8.3</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
