@@ -19,7 +19,7 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
 	private StudentRepository studentRepository;
 	
 	public void run(String... args) throws Exception {
-		Student student1 = new Student("Joshua", "Bohlen", "joshua@email.com");
+		Student student1 = new Student("Joshua2", "Bohlen", "joshua@email.com");
 		studentRepository.save(student1);
 		
 		Student student2 = new Student("Claire", "Thompson", "claire@email.com");
